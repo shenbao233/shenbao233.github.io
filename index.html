@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dai Yeming | Undergraduate research homepage in computer vision and 3D reconstruction." />
+  <title>Dai Yeming | Research Homepage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Dai Yeming</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about" data-lang="zh">关于</a>
+        <a href="#about" data-lang="en">About</a>
+        <a href="#research" data-lang="zh">研究</a>
+        <a href="#research" data-lang="en">Research</a>
+        <a href="#resume" data-lang="zh">简历</a>
+        <a href="#resume" data-lang="en">Resume</a>
+        <a href="#projects" data-lang="zh">项目</a>
+        <a href="#projects" data-lang="en">Projects</a>
+        <a href="#skills" data-lang="zh">技能</a>
+        <a href="#skills" data-lang="en">Skills</a>
+        <a href="#contact" data-lang="zh">联系</a>
+        <a href="#contact" data-lang="en">Contact</a>
+      </nav>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" data-lang="zh">本科生科研主页</p>
+          <p class="eyebrow" data-lang="en">Undergraduate Research Homepage</p>
+
+          <h1 data-lang="zh">你好，我是 <span>Dai Yeming</span></h1>
+          <h1 data-lang="en">Hi, I'm <span>Dai Yeming</span></h1>
+
+          <p class="hero-text" data-lang="zh">
+            我是四川大学计算机科学本科生，预计 <strong>2028 年 7 月</strong>毕业，当前 GPA 为 <strong>3.93/4.0</strong>。
+            目前主要关注 <strong>Computer Vision</strong>、<strong>3D Reconstruction</strong>、<strong>Generative Models</strong>
+            和 <strong>3D Gaussian Splatting</strong>，正在推进一个从单张动物图像生成 3D 模型的研究项目，并已经获得初步可行结果。
+          </p>
+          <p class="hero-text" data-lang="en">
+            I am a B.Sc. student in Computer Science at <strong>Sichuan University</strong>, expected to graduate in <strong>July 2028</strong>, with a current <strong>GPA of 3.93/4.0</strong>.
+            My interests are mainly in <strong>Computer Vision</strong>, <strong>3D Reconstruction</strong>, <strong>Generative Models</strong>,
+            and <strong>3D Gaussian Splatting</strong>. I am currently building an animal-specific 3D reconstruction pipeline and have already obtained a preliminary working result.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#research" data-lang="zh">查看当前研究</a>
+            <a class="button primary" href="#research" data-lang="en">View Current Research</a>
+            <a class="button secondary" href="assets/Dai_Yeming_Resume.pdf" target="_blank" rel="noopener" data-lang="zh">打开简历 PDF</a>
+            <a class="button secondary" href="assets/Dai_Yeming_Resume.pdf" target="_blank" rel="noopener" data-lang="en">Open Resume PDF</a>
+          </div>
+        </div>
+
+        <aside class="summary-card">
+          <h2 data-lang="zh">老师最先会看到的内容</h2>
+          <h2 data-lang="en">At a Glance</h2>
+
+          <div class="summary-item">
+            <h3 data-lang="zh">教育背景</h3>
+            <h3 data-lang="en">Education</h3>
+            <p data-lang="zh">四川大学，计算机科学本科；GPA 3.93/4.0，平均分 92。</p>
+            <p data-lang="en">Sichuan University, B.Sc. in Computer Science; GPA 3.93/4.0, average score 92.</p>
+          </div>
+
+          <div class="summary-item">
+            <h3 data-lang="zh">当前研究</h3>
+            <h3 data-lang="en">Current Research</h3>
+            <p data-lang="zh">单图动物 3D 重建：视频生成补多视角 + AniMer 监督 + 改装 Hunyuan 框架。</p>
+            <p data-lang="en">Single-image animal 3D reconstruction: video-synthesized multi-view observations + AniMer supervision + a modified Hunyuan-based framework.</p>
+          </div>
+
+          <div class="summary-item">
+            <h3 data-lang="zh">我在寻找</h3>
+            <h3 data-lang="en">What I'm Looking For</h3>
+            <p data-lang="zh">与 CV / 3D Vision / Generative Modeling 相关的本科科研机会或科研实习。</p>
+            <p data-lang="en">Undergraduate research opportunities or research internships in CV, 3D vision, and generative modeling.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">关于我</p>
+          <p class="section-kicker" data-lang="en">About Me</p>
+          <h2 data-lang="zh">把简历里的关键信息拆开，让老师更快看懂</h2>
+          <h2 data-lang="en">A More Readable Version of My Resume</h2>
+        </div>
+
+        <div class="grid two-col">
+          <div class="card">
+            <h3 data-lang="zh">教育背景</h3>
+            <h3 data-lang="en">Education Background</h3>
+            <p data-lang="zh">四川大学，计算机科学本科，2024 年 9 月入学，预计 2028 年 7 月毕业。</p>
+            <p data-lang="en">B.Sc. in Computer Science at Sichuan University, from Sep. 2024 to Jul. 2028 (expected).</p>
+          </div>
+          <div class="card">
+            <h3 data-lang="zh">课程基础</h3>
+            <h3 data-lang="en">Coursework</h3>
+            <p data-lang="zh">概率论与数理统计（99）、线性代数（92）、高等数学（91）、Python 程序设计（94）。</p>
+            <p data-lang="en">Probability and Mathematical Statistics (99), Linear Algebra (92), Calculus (91), Programming with Python (94).</p>
+          </div>
+          <div class="card">
+            <h3 data-lang="zh">语言与补充</h3>
+            <h3 data-lang="en">Language & Extra Background</h3>
+            <p data-lang="zh">CET-4：628；IELTS：6.5。也通过在线课程持续补充机器学习和深度学习基础。</p>
+            <p data-lang="en">CET-4: 628; IELTS: 6.5. I also use online courses to strengthen my background in machine learning and deep learning.</p>
+          </div>
+          <div class="card">
+            <h3 data-lang="zh">工作方式</h3>
+            <h3 data-lang="en">Working Style</h3>
+            <p data-lang="zh">我喜欢先搭通 pipeline，再做调试、可视化和失败案例分析，把研究想法逐步推进成稳定系统。</p>
+            <p data-lang="en">I prefer to first make the pipeline run, then improve it through debugging, visualization, and failure-case analysis until it becomes a more stable system.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">当前研究</p>
+          <p class="section-kicker" data-lang="en">Current Research</p>
+          <h2 data-lang="zh">Animal-Specific 3D Reconstruction from a Single Image</h2>
+          <h2 data-lang="en">Animal-Specific 3D Reconstruction from a Single Image</h2>
+          <p class="timeline">Nov. 2025 – Present</p>
+        </div>
+
+        <div class="research-layout">
+          <div class="research-main card featured">
+            <div class="pill-row">
+              <span class="pill">Computer Vision</span>
+              <span class="pill">3D Reconstruction</span>
+              <span class="pill">Generative Models</span>
+              <span class="pill">Multi-view Geometry</span>
+              <span class="pill">3DGS</span>
+            </div>
+
+            <p data-lang="zh">
+              这个项目试图解决一个具体但困难的问题：<strong>如何从单张动物图像出发，生成结构合理、视角一致的 3D 模型</strong>。
+              由于动物存在复杂姿态变化、非刚体形变，以及真实多视角数据稀缺的问题，我目前的思路是把视频生成、多视角伪监督和动物先验约束结合到同一条生成 pipeline 中。
+            </p>
+            <p data-lang="en">
+              This project targets a concrete but challenging question: <strong>how to generate a structurally plausible and view-consistent 3D model from a single animal image</strong>.
+              Because animals involve complex pose changes, non-rigid deformation, and scarce real multi-view data, my current approach is to combine video generation, pseudo multi-view supervision, and animal-aware priors within one reconstruction pipeline.
+            </p>
+
+            <div class="pipeline">
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">单张输入图像</span>
+                <span class="step-title" data-lang="en">Single Input Image</span>
+              </div>
+              <div class="arrow">→</div>
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">视频生成模型</span>
+                <span class="step-title" data-lang="en">Video Generation</span>
+              </div>
+              <div class="arrow">→</div>
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">多视角 / 多帧观测</span>
+                <span class="step-title" data-lang="en">Multi-view / Multi-frame Observations</span>
+              </div>
+              <div class="arrow">→</div>
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">AniMer 监督</span>
+                <span class="step-title" data-lang="en">AniMer Supervision</span>
+              </div>
+              <div class="arrow">→</div>
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">改装 Hunyuan</span>
+                <span class="step-title" data-lang="en">Modified Hunyuan</span>
+              </div>
+              <div class="arrow">→</div>
+              <div class="pipeline-step">
+                <span class="step-title" data-lang="zh">3D 动物模型</span>
+                <span class="step-title" data-lang="en">3D Animal Model</span>
+              </div>
+            </div>
+
+            <div class="grid two-col">
+              <div class="mini-card">
+                <h3 data-lang="zh">问题定义</h3>
+                <h3 data-lang="en">Problem Setting</h3>
+                <p data-lang="zh">单图到 3D 重建存在视角信息缺失；动物场景进一步带来非刚体形变和数据稀缺问题。</p>
+                <p data-lang="en">Single-image 3D reconstruction lacks viewpoint information, and animal data introduces non-rigid deformation and supervision scarcity.</p>
+              </div>
+              <div class="mini-card">
+                <h3 data-lang="zh">方法设计</h3>
+                <h3 data-lang="en">Method Design</h3>
+                <p data-lang="zh">通过视频生成模型合成伪多视角观测，再使用 AniMer 约束结构与姿态一致性，并接入改装后的 Hunyuan 生成框架。</p>
+                <p data-lang="en">The pipeline synthesizes pseudo multi-view observations with a video generation model, uses AniMer to constrain structure and pose consistency, and integrates both into a modified Hunyuan-based generator.</p>
+              </div>
+              <div class="mini-card">
+                <h3 data-lang="zh">我负责的部分</h3>
+                <h3 data-lang="en">My Role</h3>
+                <p data-lang="zh">负责整体 pipeline 搭建、模块衔接、训练与推理流程、结果可视化，以及基于失败案例的迭代优化。</p>
+                <p data-lang="en">I work on overall pipeline construction, module integration, training and inference workflow, result visualization, and iterative refinement based on failure-case analysis.</p>
+              </div>
+              <div class="mini-card success">
+                <h3 data-lang="zh">当前进展</h3>
+                <h3 data-lang="en">Current Status</h3>
+                <p data-lang="zh">已经得到初步可行的 3D 生成结果，说明该 pipeline 具备 feasibility；当前仍在继续改进几何细节与稳定性。</p>
+                <p data-lang="en">The current prototype has produced a preliminary working 3D result, demonstrating feasibility; I am now continuing to improve geometric detail and robustness.</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="research-side">
+            <div class="card">
+              <h3 data-lang="zh">老师大概率会关心的点</h3>
+              <h3 data-lang="en">What Advisors Usually Care About</h3>
+              <ul class="clean-list" data-lang="zh">
+                <li>是否在解决真实研究问题，而不是只做课程作业</li>
+                <li>是否具备模型训练、数据处理与实验调试能力</li>
+                <li>是否已经有可运行原型和初步结果</li>
+                <li>是否能够把一个复杂 pipeline 持续往前推进</li>
+              </ul>
+              <ul class="clean-list" data-lang="en">
+                <li>Whether this is a real research problem rather than a standard class assignment</li>
+                <li>Whether I can handle training, data processing, and experiment debugging</li>
+                <li>Whether there is already a working prototype and preliminary result</li>
+                <li>Whether I can keep pushing a complex pipeline forward</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 data-lang="zh">下一步想做的事</h3>
+              <h3 data-lang="en">Next Steps</h3>
+              <ul class="clean-list" data-lang="zh">
+                <li>提升几何细节与结构稳定性</li>
+                <li>分析不同动物类别上的泛化表现</li>
+                <li>改进视角一致性与监督设计</li>
+              </ul>
+              <ul class="clean-list" data-lang="en">
+                <li>Improve geometric detail and structural stability</li>
+                <li>Study generalization across animal categories</li>
+                <li>Refine view consistency and supervision design</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">简历快照</p>
+          <p class="section-kicker" data-lang="en">Resume Snapshot</p>
+          <h2 data-lang="zh">网页版的一页简历摘要</h2>
+          <h2 data-lang="en">A Web-Friendly Summary of My One-Page Resume</h2>
+        </div>
+
+        <div class="resume-grid">
+          <div class="card resume-card">
+            <h3 data-lang="zh">Education</h3>
+            <h3 data-lang="en">Education</h3>
+            <p><strong>Sichuan University</strong></p>
+            <p data-lang="zh">B.Sc. in Computer Science</p>
+            <p data-lang="en">B.Sc. in Computer Science</p>
+            <p>Sep. 2024 – Jul. 2028 (Expected)</p>
+            <p>GPA: 3.93/4.0 | Average Score: 92</p>
+          </div>
+          <div class="card resume-card">
+            <h3 data-lang="zh">Research Interests</h3>
+            <h3 data-lang="en">Research Interests</h3>
+            <div class="pill-row tall">
+              <span class="pill">Computer Vision</span>
+              <span class="pill">3D Reconstruction</span>
+              <span class="pill">Generative Models</span>
+              <span class="pill">Multi-view Geometry</span>
+              <span class="pill">3D Gaussian Splatting</span>
+            </div>
+          </div>
+          <div class="card resume-card">
+            <h3 data-lang="zh">Selected Coursework</h3>
+            <h3 data-lang="en">Selected Coursework</h3>
+            <ul class="clean-list">
+              <li>Probability Theory and Mathematical Statistics</li>
+              <li>Linear Algebra</li>
+              <li>Calculus</li>
+              <li>Programming with Python</li>
+            </ul>
+          </div>
+          <div class="card resume-card">
+            <h3 data-lang="zh">Resume PDF</h3>
+            <h3 data-lang="en">Resume PDF</h3>
+            <p data-lang="zh">老师如果更习惯看一页 PDF，可以直接打开或下载正式简历。</p>
+            <p data-lang="en">For advisors who prefer a compact one-page PDF, the formal resume is available here.</p>
+            <div class="hero-actions compact-actions">
+              <a class="button primary" href="assets/Dai_Yeming_Resume.pdf" target="_blank" rel="noopener" data-lang="zh">打开 PDF</a>
+              <a class="button primary" href="assets/Dai_Yeming_Resume.pdf" target="_blank" rel="noopener" data-lang="en">Open PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">其他项目</p>
+          <p class="section-kicker" data-lang="en">Selected Project</p>
+          <h2 data-lang="zh">课程项目用来展示基础工程能力</h2>
+          <h2 data-lang="en">A Course Project That Shows My Engineering Basics</h2>
+        </div>
+
+        <div class="project-card card">
+          <div class="project-top">
+            <div>
+              <h3 data-lang="zh">C++ 收银系统</h3>
+              <h3 data-lang="en">Cashier System in C++</h3>
+              <p class="muted">Jul. 2025 · Course Project</p>
+            </div>
+            <div class="pill-row compact-pills">
+              <span class="pill">C++</span>
+              <span class="pill">Modular Design</span>
+              <span class="pill">Debugging</span>
+            </div>
+          </div>
+          <ul class="clean-list" data-lang="zh">
+            <li>实现商品管理、订单结算和价格统计等基础功能。</li>
+            <li>采用模块化设计组织代码，提升可读性与可维护性。</li>
+            <li>在实践中强化了 C++ 编程、调试和基础软件设计能力。</li>
+          </ul>
+          <ul class="clean-list" data-lang="en">
+            <li>Implemented commodity management, checkout, and price calculation functions.</li>
+            <li>Used a modular design to improve code readability and maintainability.</li>
+            <li>Strengthened hands-on skills in C++ programming, debugging, and basic software design.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">技能与研究兴趣</p>
+          <p class="section-kicker" data-lang="en">Skills & Interests</p>
+          <h2 data-lang="zh">保持和 PDF 简历一致，同时更贴近网页阅读</h2>
+          <h2 data-lang="en">Consistent with the PDF Resume, but Easier to Scan on the Web</h2>
+        </div>
+
+        <div class="grid two-col">
+          <div class="card">
+            <h3 data-lang="zh">Technical Skills</h3>
+            <h3 data-lang="en">Technical Skills</h3>
+            <div class="stack-list">
+              <div class="stack-row"><span class="stack-key">Programming</span><span class="stack-value">Python, C/C++</span></div>
+              <div class="stack-row"><span class="stack-key">Frameworks</span><span class="stack-value">PyTorch</span></div>
+              <div class="stack-row"><span class="stack-key">Tools</span><span class="stack-value">Git, LaTeX</span></div>
+              <div class="stack-row"><span class="stack-key">Workflow</span><span class="stack-value">Training, Inference, Visualization, Debugging</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3 data-lang="zh">Research Interests</h3>
+            <h3 data-lang="en">Research Interests</h3>
+            <div class="pill-row tall">
+              <span class="pill">Computer Vision</span>
+              <span class="pill">3D Reconstruction</span>
+              <span class="pill">Generative Models</span>
+              <span class="pill">Multi-view Geometry</span>
+              <span class="pill">3DGS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="section-kicker" data-lang="zh">联系我</p>
+          <p class="section-kicker" data-lang="en">Contact</p>
+          <h2 data-lang="zh">这一页已经可以直接发给老师</h2>
+          <h2 data-lang="en">This Page Is Ready to Share with Advisors</h2>
+        </div>
+
+        <div class="contact-card card">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:2024141460121@stu.scu.edu.cn">2024141460121@stu.scu.edu.cn</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/shenbao233" target="_blank" rel="noopener">github.com/shenbao233</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label" data-lang="zh">学校</span>
+            <span class="contact-label" data-lang="en">University</span>
+            <span>Sichuan University</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">CV</span>
+            <a href="assets/Dai_Yeming_Resume.pdf" target="_blank" rel="noopener">Dai_Yeming_Resume.pdf</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p data-lang="zh">这个主页已经整合了你的研究项目、教育背景和 PDF 简历。后面你只需要补 2–3 张结果图，整体说服力会再上一个台阶。</p>
+      <p data-lang="en">This homepage now integrates your research project, academic background, and PDF resume. Adding 2–3 result figures later will make it even stronger.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('langToggle');
+    const html = document.documentElement;
+    const setLang = (lang) => {
+      html.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      document.querySelectorAll('[data-lang]').forEach((el) => {
+        el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+      });
+      toggle.textContent = lang === 'zh' ? 'EN' : '中';
+      localStorage.setItem('site-lang', lang);
+    };
+    const initialLang = localStorage.getItem('site-lang') || 'zh';
+    setLang(initialLang);
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('lang') === 'zh-CN' ? 'zh' : 'en';
+      setLang(current === 'zh' ? 'en' : 'zh');
+    });
+  </script>
+</body>
+</html>
